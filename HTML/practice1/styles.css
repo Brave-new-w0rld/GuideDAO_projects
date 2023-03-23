@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.page {
+    margin: 40px 25px;
+    padding: 30px 30px;
+    border: 3px solid #9ba69c;
+    background-color: rgb(247, 247, 244);
+}
+
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #000000;
+    color: #FFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: #000000;
+    color: #FFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+#banksy {
+    height: 500px;
+    margin: 30px 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: inside;
+    list-style-type: square;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+ul:last-of-type {
+    margin-bottom: 0;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 5px;
+    margin: 10px 5px;
+    font-style: oblique;
+    font-weight: bold;
+    color: darkslateblue;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration-line: underline;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
+}
+
+p {
+    padding: 5px;
+    margin: 10px 5px;
+    text-align: justify;
+}
