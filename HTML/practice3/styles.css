@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(background_img.jpg);
-    background-position: 0 150px;
-    background-repeat: no-repeat;
-    background-size: 100% 1200px;
-}
-
 .header {
     height: 150px;
     padding: 30px 50px;
@@ -21,6 +14,13 @@ body {
     letter-spacing: 0.25em;
 }
 
+.picture-block {
+    height: 1200px;
+    background-image: url(background_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1200px;
+}
+
 .credentials {
     color: #FFF;
     background-color: goldenrod;
@@ -29,7 +29,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 56px;
     letter-spacing: 0.1em;
-    margin-top: 1200px;
+    /* margin-top: 1200px; */
 }
 
 h1 {
@@ -75,7 +75,7 @@ mark {
 }
 
 .footer {
-    height: 100px;
+    padding: 40px 100px;
     display: flex;
     justify-content: space-between;
     background-color: goldenrod;
@@ -85,7 +85,6 @@ mark {
 }
 
 .school {
-    padding: 40px 100px;
     font-weight: bold;
     font-size: 22px;
     letter-spacing: 0.05em;
@@ -96,7 +95,6 @@ mark {
 }
 
 .footer-text {
-    padding: 36px 100px;
     font-weight: bold;
     font-size: 32px;
 }
