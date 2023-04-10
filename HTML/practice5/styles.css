@@ -144,9 +144,9 @@ a:hover {
 
 .contents {
     margin: 100px auto;
-    width: 1260px;
+    width: 1200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     background-color: #fff;
 
