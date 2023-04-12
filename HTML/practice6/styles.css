@@ -20,6 +20,7 @@ body {
 
 .contents {
     padding: 5%;
+    gap: 4.0vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -58,10 +59,6 @@ body {
 }
 
 @media only screen and (min-width: 391px) {
-
-    .contents {
-        gap: 4.0vw;
-    }
 
     .container {
         width: 47%;
